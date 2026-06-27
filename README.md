@@ -218,6 +218,6 @@ Toda contribuição faz diferença, seja ela um único exemplo ou milhares deles
 
 ## 🚀 Vamos construir a próxima geração de IAs juntos.
 
-Projeto mantido com ❤️ pela **Flame-FlareAI**
+Projeto mantido com ❤️ pela **FlareAI**
 
 </div>
