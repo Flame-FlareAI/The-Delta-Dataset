@@ -88,8 +88,7 @@ Você pode contribuir criando exemplos sobre:
 Cada exemplo aprovado ajuda a melhorar futuras IAs.
 
 ---
-
-# ✅ Revisão das contribuições
+# ✅A Revisão das Contribuições.
 
 Apesar de qualquer pessoa poder contribuir, **nenhuma alteração é adicionada automaticamente ao dataset**.
 
@@ -105,6 +104,33 @@ Esse processo garante que o projeto continue sendo:
 * ✅ Com exemplos de alta qualidade
 
 Nosso objetivo é manter um dataset que qualquer desenvolvedor possa utilizar com confiança.
+
+# 🔍 Verificação e Aceitação
+
+Para manter o **The Delta Dataset** seguro e com alta qualidade, nenhuma alteração é adicionada automaticamente. Todos os **Pull Requests** passam por uma triagem manual da nossa equipe utilizando um sistema de etiquetas (*labels*).
+
+### ⚙️ Como funciona o fluxo?
+
+Quando você envia um Pull Request, ele entra na fila de espera e inicialmente **não possui nenhuma etiqueta**. Assim que nossa equipe visualiza e começa a avaliar a sua contribuição, aplicamos uma das **5 etiquetas** do projeto para indicar o status atual:
+
+#### 👥 Etiquetas para o Público Contribuinte (4 opções)
+* **`Em Inspeção`**: Estamos revisando o conteúdo minuciosamente. É a fase onde caçamos erros de formatação, alucinações, insinuações a conteúdo +18, apologia ao crime, etc.
+* **`Será Usado`**: Passou na inspeção e o conteúdo está perfeito! O PR será aceito e integrado ao dataset (YAY! 🎉).
+* **`Não será usado`**: O conteúdo não será integrado. Isso acontece se for algo duplicado, com alguma informação errada ou que quebre as regras do repositório.
+* **`Dúvida`**: Precisamos de mais informações da sua parte antes de aprovar. *(Ex: deixaremos um comentário perguntando "De onde essa informação foi retirada?" ou "Você mesmo inventou?").*
+
+#### 🔒 Etiqueta Privada (1 opção)
+* **`Edição Oficial`**: Esta etiqueta é exclusiva para colaboradores internos do grupo **FlareAI** (membros oficiais da equipe). Indica atualizações e modificações diretas feitas pelo time de desenvolvimento.
+
+---
+
+### ⚠️ Regras Cruciais (O que causará a rejeição do seu PR)
+
+Para garantir que sua contribuição receba a etiqueta **`Será Usado`**, certifique-se de que seus exemplos estejam livres de:
+* ❌ **Alucinações ou Mentiras:** Fatos inventados ou códigos/comandos que não funcionam.
+* ❌ **Conteúdo Inadequado:** Insinuações +18, apologia ao crime ou discurso de ódio.
+* ❌ **Dados Pessoais:** Nomes reais de pessoas privadas, e-mails, senhas ou documentos.
+* ❌ **Duplicatas ou Spam:** Enviar prompts muito parecidos com os que já existem ou mensagens sem valor real de aprendizado para a IA.
 
 ---
 
